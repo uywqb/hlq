@@ -13,19 +13,6 @@
 <div id="app"></div>
 <script type="text/javascript" src="dist/vendors.6ff7c911dd67bd92802e.js"></script>
 <script type="text/javascript" src="dist/main.6ff7c911dd67bd92802e.js"></script>
-<script type="text/javascript" src="static/js/jquery-1.10.1.min.js"></script>
 <script type="text/javascript" src="static/js/swiper.animate1.0.2.min.js"></script>
-<script>
-    function autoScroll(obj){
-        $(obj).find("ul").animate({
-            marginTop : "-39px"
-        },500,function(){
-            $(this).css({marginTop : "0px"}).find("li:first").appendTo(this);
-        })
-    }
-    $(function(){
-        setInterval('autoScroll(".maquee")',3000);
-    });
-</script>
 </body>
 </html>
