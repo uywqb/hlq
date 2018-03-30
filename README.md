@@ -1,2 +1,2 @@
-# hlq
-这就是个测试项目，vue.js的测试项目
+# hlq官网vue.js版
+组件 ： iview+vue-router+vue-awesome-swiper+vue-countup+vue-resource+fastclick
